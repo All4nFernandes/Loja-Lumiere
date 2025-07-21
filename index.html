@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumière - Cosméticos de Luxo</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <h1>Lumière</h1>
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#produtos" class="nav-link">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sobre" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link">Contato</a>
+            </li>
+          </ul>
+          <div class="nav-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-bag"></i>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img
+            src="/assets/imagens/LogoLumiere.jpg"
+            alt="LogoLumiere"
+            class="hero-image-actual"
+          />
+        </div>
+        <h1 class="hero-title">Desperte sua Beleza Natural</h1>
+        <p class="hero-subtitle">
+          Descubra a coleção exclusiva de cosméticos Lumière, criada para
+          realçar sua luminosidade única
+        </p>
+        <button class="cta-button">Explorar Coleção</button>
+      </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="carousel-section">
+      <div class="container">
+        <h2 class="section-title">Produtos em Destaque</h2>
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="carousel-track">
+              <div class="carousel-slide active">
+                <div class="slide-content">
+                  <div class="slide-image">
+                    <i class="fas fa-image"></i>
+                    <p>Produto 1</p>
+                  </div>
+                  <h3>Base Luminosa</h3>
+                  <p>Cobertura natural com acabamento radiante</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-content">
+                  <div class="slide-image">
+                    <i class="fas fa-image"></i>
+                    <p>Produto 2</p>
+                  </div>
+                  <h3>Blush Rosé</h3>
+                  <p>Cor natural que realça o brilho da pele</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-content">
+                  <div class="slide-image">
+                    <i class="fas fa-image"></i>
+                    <p>Produto 3</p>
+                  </div>
+                  <h3>Batom Nude</h3>
+                  <p>Hidratação e cor perfeita para o dia a dia</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-content">
+                  <div class="slide-image">
+                    <i class="fas fa-image"></i>
+                    <p>Produto 4</p>
+                  </div>
+                  <h3>Iluminador</h3>
+                  <p>Brilho sutil para um glow natural</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel-btn next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="products">
+      <div class="container">
+        <h2 class="section-title">Nossa Coleção</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <i class="fas fa-image"></i>
+              <p>Produto</p>
+            </div>
+            <div class="product-info">
+              <h3>Base Perfeita</h3>
+              <p class="product-price">R$ 89,90</p>
+              <button class="product-btn">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <i class="fas fa-image"></i>
+              <p>Produto</p>
+            </div>
+            <div class="product-info">
+              <h3>Corretivo Natural</h3>
+              <p class="product-price">R$ 45,90</p>
+              <button class="product-btn">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <i class="fas fa-image"></i>
+              <p>Produto</p>
+            </div>
+            <div class="product-info">
+              <h3>Pó Compacto</h3>
+              <p class="product-price">R$ 65,90</p>
+              <button class="product-btn">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <i class="fas fa-image"></i>
+              <p>Produto</p>
+            </div>
+            <div class="product-info">
+              <h3>Kit Completo</h3>
+              <p class="product-price">R$ 199,90</p>
+              <button class="product-btn">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Quem somos</h2>
+            <p>
+              LUMIÉRE é uma marca vegana e sustentável que valoriza o brilho
+              natural da sua pele com fórmulas limpas e eficazes, inspiradas na
+              sofisticação francesa e na força da natureza.
+            </p>
+            <p>
+              Na Lúmiére, acreditamos que a verdadeira beleza reside na sua
+              essência, no brilho natural que cada um carrega.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="about-placeholder">
+              <i class="fas fa-image"></i>
+              <p>Imagem Sobre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sobre" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Quem somos</h2>
+            <p>
+              LUMIÉRE é uma marca vegana e sustentável que valoriza o brilho
+              natural da sua pele com fórmulas limpas e eficazes, inspiradas na
+              sofisticação francesa e na força da natureza.
+            </p>
+            <p>
+              Na Lúmiére, acreditamos que a verdadeira beleza reside na sua
+              essência, no brilho natural que cada um carrega.
+            </p>
+            <div class="about-features">
+              <div class="feature">
+                <i class="fas fa-leaf"></i>
+                <span>Ingredientes Naturais</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-heart"></i>
+                <span>Cruelty Free</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-star"></i>
+                <span>Alta Qualidade</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="about-placeholder">
+              <i class="fas fa-image"></i>
+              <p>Imagem Sobre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Endereço</h4>
+                <p>Rua da Beleza, 123<br />São Paulo - SP</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Telefone</h4>
+                <p>(11) 9999-9999</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>contato@lumiere.com.br</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Seu Nome" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Seu Email" required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Lumière</h3>
+            <p>Desperte sua beleza natural com nossos produtos exclusivos.</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Atendimento</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Política de Troca</a></li>
+              <li><a href="#">Frete Grátis</a></li>
+              <li><a href="#">Suporte</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Newsletter</h4>
+            <p>Receba novidades e ofertas exclusivas</p>
+            <div class="newsletter">
+              <input type="email" placeholder="Seu email" />
+              <button type="submit">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Lumière. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
